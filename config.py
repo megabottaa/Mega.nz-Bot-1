@@ -12,7 +12,7 @@ class Config(object):
     LOGS_CHANNEL = int(os.environ.get("LOGS_CHANNEL")) if os.environ.get("LOGS_CHANNEL") else None
     # DON'T CHANGE THESE 2 VARS
     DOWNLOAD_LOCATION = "./NexaBots"
-    TG_MAX_SIZE = 3040108421
+    TG_MAX_SIZE = 4040108421
     # Mega User Account
     MEGA_EMAIL = os.environ.get("MEGA_EMAIL")
     MEGA_PASSWORD = os.environ.get("MEGA_PASSWORD")
